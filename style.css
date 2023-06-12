@@ -142,3 +142,40 @@ a{
   height: 100%;
   object-fit: cover;
   } */
+
+
+  @media screen and (max-width: 375px) {
+
+    body{
+      background-color:var(--main-White) ;
+    }
+
+    #main-page {
+      flex-direction: column;
+      padding: 0rem;
+      border-radius: 0px;
+    }
+    .right {
+      width: 100%;
+      margin: 0;
+      padding: 1.5rem;
+    }
+
+    .left {
+      order: -1;
+    }
+
+    .img{
+      width: 100%;
+      height: 50%;
+      text-align: center; /* Optional: Center the image horizontally */
+      overflow: hidden;
+    }
+    .img svg {
+      width: auto;
+      max-width: 100%;
+      height: 100%;
+    }
+    
+    
+  }
